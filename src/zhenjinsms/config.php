@@ -1,0 +1,40 @@
+<?php
+
+return [
+    [
+        'name' => 'uname',
+        'title' => '真金账号',
+        'type' => 'string',
+        'content' => [],
+        'value' => '',
+        'rule' => 'required',
+        'msg' => '',
+        'tip' => '',
+        'ok' => '',
+        'extend' => '',
+    ],
+    [
+        'name' => 'secret',
+        'title' => '真金密钥',
+        'type' => 'string',
+        'content' => [],
+        'value' => '',
+        'rule' => 'required',
+        'msg' => '',
+        'tip' => '',
+        'ok' => '',
+        'extend' => '',
+    ],
+    [
+        'name' => 'sign',
+        'title' => '短信签名',
+        'type' => 'string',
+        'content' => [],
+        'value' => '',
+        'rule' => 'required',
+        'msg' => '',
+        'tip' => '例如【微资科技】',
+        'ok' => '',
+        'extend' => '',
+    ],
+];
