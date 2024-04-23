@@ -11,7 +11,7 @@ class Zhenjin
     protected static $instance = null;
     protected static $ACCESS_TOKEN=  "/risk/data/api/getAccessToken";
     protected static $SMS_SEND =  "/risk/data/sms/send";
-    protected static $HOST_URL="https://api.zhenjinfengkong.com";
+    protected static $HOST_URL="https://api.renrunyun.com";
 
     public function __construct($options = [])
     {
